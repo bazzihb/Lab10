@@ -3,8 +3,11 @@ public class testSelectionSort {
 public void test() {
 testPositive();
 testNegative();
+<<<<<<< HEAD
 testMixed();
 testDuplicates();
+=======
+>>>>>>> dd5de35b6681980628eb5f00cec27b43171a6cb8
 }
     public testSelectionSort() {
     }
@@ -37,6 +40,7 @@ testDuplicates();
       arr[3] = 10;
       arr[4] = 2;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** Test data contains negative values only **/
         int[] result = new SelectionSort() .basicSelectionSort(arr);
@@ -82,6 +86,8 @@ testDuplicates();
         */
     }
 =======
+=======
+>>>>>>> dd5de35b6681980628eb5f00cec27b43171a6cb8
       int[] Sortedarr = new int[5];
       Sortedarr[0] = 2;
       Sortedarr[1] = 7;
@@ -93,5 +99,8 @@ testDuplicates();
       int[] result = new SelectionSort() .basicSelectionSort(arr);
       assertArrayEquals(Sortedarr, result);
   }
+<<<<<<< HEAD
+>>>>>>> dd5de35b6681980628eb5f00cec27b43171a6cb8
+=======
 >>>>>>> dd5de35b6681980628eb5f00cec27b43171a6cb8
 }
